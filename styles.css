@@ -54,7 +54,7 @@ body {
 
 .typewriter {
   margin-top: 1em;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
