@@ -39,6 +39,12 @@ body {
   margin-bottom: 2rem;
 }
 
+.hero-image {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
 .hero-title {
   font-family: var(--font-secondary);
   font-size: 5rem;
@@ -175,6 +181,24 @@ body {
   box-shadow: 0 2px rgba(0, 0, 0, 0.3);
   transform: translateY(2px);
   color: var(--secondary-color);
+}
+
+.contact-icon {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+  margin: 20px;
+}
+
+.fs-xxl {
+  font-size: 5rem !important;
+}
+
+
+@media (max-width: 767px) {
+  .fs-xxl {
+    font-size: 3rem !important;
+  }
 }
 
 @media (max-width: 767px) {
